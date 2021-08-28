@@ -8,3 +8,10 @@
 
 * Enhanced Object Literals
 > 객체 리터럴은 중괄호{}로 묶인 0개 이상인 객체의 속성명과 관련 값 쌍 목록입니다.
+
+* Template Strings(Template literals)
+> 문법적으로 더 편하게 string을 생성할 수 있게 한다.
+> Tagged template literals는 인젝션 공격 방어 혹은 문자열로 부터 상위 데이터 구조체 재조립 등을 위해 string 생성을 커스터마이징이 가능하게끔 해준다.
+
+* Destructuring
+> 배열과 객체에 패턴 매칭을 통한 데이터 바인딩을 제공한다. 할당 실패에 유연하며 실패 시 undefined 값이 자동 할당된다.
